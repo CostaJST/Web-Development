@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 class="heading" id="title">Mother Teresa</h1>
+      <p>Mother Teresa of Culcutta</p>
+      <figure id="img-div">
+        <img id="image" src="https://live.staticflickr.com/3303/3310404514_5163fffb74_c.jpg" alt="Picture of mother teresa" />
+        <figcaption id="img-caption">Mother Teresa in 1995</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3>~ Here's a time line of Mother Teresa's life ~</h3>
+        <ul>
+          <li>1910 - born in Ottoman Empire as Anjezë Gonxhe Bojaxhiu.</li>
+          <li>1928 - at the age of 18, left the home to join Sisters of Loreto in Ireland.</li>
+          <li>1929 - arrived in India.</li>
+          <li>1931 - took her very first religous vows.</li>
+          <li>1937 - took here solemn vows while serving in culcutta as a teacher in Loreto Convent School. </li>
+          <li>1946 - heard the call of her inner conscience to serve the poor of India for Jesus. </li>
+          <li>1950 - founded the Missionaries of Charity, choosing a white sari with two blue borders as the order's habit.</li>
+          <li>1960 - opened several hospices, orphanages all over the India and have done lots of charity work internationaly as well.</li>
+          <li>1997 - after suffering from heart failure several times, she resigned as head of Missionaries of Charity and died on 5th sepetember in same year.</li> 
+        </ul>
+
+        <blockquote>“NOT ALL OF US CAN DO GREAT THINGS. BUT WE CAN DO SMALL THINGS WITH GREAT LOVE.” — MOTHER TERESA</blockquote>
+
+        <h3>If you have time, you should read more about this incredible human being on her <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank" value="Wikipedia Page">Wikipedia Page</a></h3>
+      </section>
+    </main>
+  </body>
+</html>
