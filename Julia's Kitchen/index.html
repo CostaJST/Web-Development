@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initials-scale=1.0">
+        <title>Julie's Kitchen</title>
+        <!--stylesheets-->
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Great+Vibes&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Great+Vibes&family=Playfair+Display&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <!--javascript-->
+        <script>
+            function validate_email(emailId)
+            {
+            var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            if(emailId.value.match(mailformat))
+            {
+            document.form1.text1.focus();
+            return true;
+            }
+            else
+            {
+            alert("Invalid email address.");
+            document.form1.text1.focus();
+            return false;
+            }
+            }    
+        </script>
+        
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <div class="content-wrap">
+                    <h1>Julie's Kitchen</h1>
+                    <h3>Welcome to Julie's Kitchen, your trusted kitchen partner!</h3>
+                    <p>"Dive into the world of cookery with Julie's Kitchen! 
+                        Whether you're looking to impress your loved ones or simply explore new culinary delights, we're here to help.
+                         Discover the latest and most tantalizing recipes on our website, perfect for any occasion." 
+                    </p>
+                </div>
+            </header>
+
+            <!--Recipe Sections-->
+            <section class="recipes">
+                <div class="content-wrap divider">
+                    <h2>Italian Recipes</h2>
+                    <section class="recipe-item">
+                        <img src="img/img1.jpg" alt="Mushroom Ravioli with Spinach">
+                        <h3>Mushroom Ravioli with Spinach</h3>
+                        <h4>Ingredients (2-3 Servings)</h4>
+                        <ul>
+                            <li>500g of Button Mushrooms</li>
+                            <li>Sun-dried Tomatoes</li>
+                            <li>500g of Spinach</li>
+                            <li>6-7 cloves of chopped Garlic</li>
+                            <li>750g of Ravioli Pasta</li>
+                            <li>4-5 Tsp of Olive Oil</li>
+                            <li>1 Stick of Unsalted Butter</li>
+                            <li>Dried Chilli Flakes</li>
+                            <li>Salt to taste</li>
+                            <li>Italian Seasoning to taste</li>
+                            <li><a href="https://www.threeolivesbranch.com/creamy-sundried-tomato-sauce/">Creamy Sun-dried Tomato Sauce</a></li>
+                            <li>You can use <a href="https://juliasalbum.com/cauliflower-alfredo-sauce-recipe/">Alfredo Sauce</a> or <a href="https://juliasalbum.com/easy-marinara-sauce-recipe/">Marinara Sauce</a> as a substitute</li>
+                            <li>Serve it with any type of Meat, Salad, or Roasted Vegetables</li>
+                        </ul>
+                    </section>
+
+                    <section class="recipe-item">
+                        <img src="img/img2.jpg" alt="Creamy Roasted Butternut Squash Pasta with Sausage and Spinach">
+                        <h3>Creamy Roasted Butternut Squash Pasta with Sausage and Spinach</h3>
+                        <h4>Ingredients (2-3 Servings)</h4>
+                        <ul>
+                            <li>750g of Bow Tie Pasta (Farfalle)</li>
+                            <li><a href="https://juliasalbum.com/roasted-butternut-squash/">450g of Roasted Butternut Squash</a></li>
+                            <li>400g of Italian Sausage</li>
+                            <li>500g of Spinach</li>
+                            <li>5-6 cloves of Chopped Garlic</li>
+                            <li>4-5 Tsp of Olive Oil</li>
+                            <li>1 Stick of Butter</li>
+                            <li>Salt & Pepper to taste</li>
+                            <li>Italian Seasoning to taste</li>
+                            <li><a href="https://juliasalbum.com/roasted-butternut-squash/">Creamy Pasta Sauce made of Heavy Cream & Parmesan Cheese</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="recipe-item">
+                        <img src="img/img3.jpg" alt="Chicken Gnocchi Soup">
+                        <h3>Chicken Gnocci Soup</h3>
+                        <h4>Ingredients (2-3 Servings)</h4>
+                        <ul>
+                            <li>500g of Potato Gnocchi</li>
+                            <li>1 Big Sized Onion nicely chopped</li>
+                            <li>3-4 cloves of chopped Garlic</li>
+                            <li>1 thinly sliced Zucchini</li>
+                            <li>2 thinly sliced Carrots</li>
+                            <li>750ml Chicken Broth</li>
+                            <li>500g of boneless Chicken cut into small chunks</li>
+                            <li>150ml of Fresh Cream</li>
+                            <li>2-3 Tsp of Smoked Paprika</li>
+                            <li>Italian Seasoning</li>
+                            <li>Salt & pepper to taste</li>
+                            <li>4-5 Tsp of Olive Oil</li>
+                        </ul>
+                    </section>
+
+                    <section class="recipe-item">
+                        <img src="img/img4.jpg" alt="Baked Eggplant Parmesan">
+                        <h3>Baked Eggplant Parmesan</h3>
+                        <h4>Ingredients (2-3 Servings)</h4>
+                        <ul>
+                            <li>2 medium sized Eggplants sliced thickly</li>
+                            <li>1.5 Cups of shredded Mozarella</li>
+                            <li>2 Cups of shredded Parmesan</li>
+                            <li>1.5 Cups of Marinara Sauce</li>
+                            <li>0.5 Cups of Bread Crumbs</li>
+                            <li>Salt & Pepper to taste</li>
+                            <li>2-3 Tsp of Olive Oil</li>
+                        </ul>
+                    </section>
+
+                    <section class="recipe-item">
+                        <img src="img/img5.jpg" alt="Classic Italian Meatballs">
+                        <h3>Classic Italian Meatballs</h3>
+                        <h4>Ingredients (5-6 Servings)</h4>
+                        <ul>
+                            <li>1 lb of ground Beef</li>
+                            <li>1/2 lb of ground Pork</li>
+                            <li>1/2 lb Italian Sausage</li>
+                            <li>1 Onion finely chopped</li>
+                            <li>3-4 cloves of Garlic finely chopped</li>
+                            <li>Salt & Pepper to taste</li>
+                            <li>2 Eggs beaten</li>
+                            <li>1 cup of shreaded Parmesan</li>
+                            <li>Chopped Parsley</li>
+                            <li>2-3 tsp of Olive Oil</li>
+                            <li>1 jar of Marinara Sauce</li>
+                            <li>1/2 cup of whole Milk</li>
+                            <li>1 cup of Bread Crumbs</li>
+                        </ul>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- Data Table -->
+            <section class="pasta-sauce">
+                <div class="content-wrap item-details">
+                    <h2>Pasta - Sauce Pairing</h2>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Type of Pasta</th>
+                                <th>Sauce</th>
+                            </tr>
+                            <tr>
+                                <td>Fettuccine</td>
+                                <td>Cream Based Sauce</td>
+                            </tr>
+                            <tr>
+                                <td>Spaghetti</td>
+                                <td>Seafood OR Tomato Based Sauce</td>
+                            </tr>
+                            <tr>
+                                <td>Penne</td>
+                                <td>Bolognese OR Ragu Sauce</td>
+                            </tr>
+                            <tr>
+                                <td>Ravioli</td>
+                                <td>Oil OR Butter Based Sauce</td>
+                            </tr>
+                            <tr>
+                                <td>Rotini</td>
+                                <td>Pesto Sauce</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+
+            <footer>
+                <div class="container">
+                    <h2>Subscribe to receive our latest recipes by email!</h2>
+                </div>
+
+                <form name="form1" action="#">
+
+                    <div class="container">
+                        <input name="email" type="text" placeholder="Enter your Email here.." required>
+                    </div>
+
+                    <div class="container">
+                        <input id="submit" type="submit" value="Subscribe" onclick="validate_email(document.form1.email)">
+                    </div>
+
+                </form>
+
+            </footer>
+        </main>
+    </body>
+</html>

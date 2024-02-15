@@ -1,0 +1,184 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #07BA33;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h1 {
+    font-family: 'Protest Revolution';
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Almendra';
+    font-weight: 400;
+    margin: 0;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+header {
+    background: #6d6875;
+    color: #f8edeb;
+}
+
+.recipes {
+    background: #DAF7A6;
+}
+
+.recipe-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343a40;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+.recipe-item h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: #FDEDEC;
+    color: #E9967A;
+}
+
+.container {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+input[type=text], input[type=submit] {
+    width: 65%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #E9967A;
+    color: white;
+    border: none;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  /* Table */
+  table {
+    font-family: 'Cormorant', serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .pasta-sauce {
+    background-image: url(img/table.jpg);
+    background-size: cover;
+    background-position: top left;
+  }
+
+/* Animatin */
+h1 {
+    animation: 3s slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* Responsive Styles */
+@media screen and (min-width:750px){
+    header, footer {
+        text-align: center;
+    }
+
+    .recipe-item img {
+        float: left;
+        margin-right: 40px;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width:749px) {
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        line-height: 1;
+    }
+}
